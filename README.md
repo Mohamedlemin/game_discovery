@@ -1,9 +1,10 @@
-a full-stack job tracker application that helps users organize and manage their job search process. The application should allow users to create profiles, search for job listings, save favorite jobs, track application statuses, and set reminders for follow-ups. Features should include user authentication, job listing integration (via APIs or web scraping), custom tagging and categorization of jobs, and resume/CV management. Additionally, implement features such as analytics for job application progress and email integration for communication with potential employers. The project should be completed within three weeks by a single developer.
+Problem Statement:
+Game enthusiasts often struggle with discovering new and interesting video games to play across various platforms due to the overwhelming abundance of choices and lack of tailored recommendations. This leads to frustration, wasted time, and missed opportunities to explore diverse gaming experiences. Additionally, developers face challenges in effectively showcasing their games to potential players, hindering their ability to reach their target audience and maximize game adoption.
 
 Entities:
-#User : represents the user of the application and contains basic user information such as username, password, and email. Each user has a corresponding UserProfile which contains additional details like first name, last name, skills, experience, education, saved jobs, applications, and tags.
-#JobListing : represents a job listing with attributes such as title, company, location, type, salary, deadline, and description.
-#Application : represents a job application made by a user for a specific job listing. It includes details such as the job listing applied for, application status, dates, follow-up tasks, and feedback.
-#Tag : represents a custom tag or category that users can assign to job listings or applications for organization and filtering purposes.
-#Resume : represents the user's resume or CV, which can be uploaded and managed within the application.
-
+1. **Users**: Individuals interested in discovering and playing video games across different platforms.
+2. **Game Developers/Publishers**: Entities responsible for creating and distributing video games.
+3. **Games**: Various titles available for play on different gaming platforms, encompassing a wide range of genres and styles.
+4. **Platforms**: The systems or devices on which video games are played, such as consoles, PC, mobile devices, etc.
+5. **Genres**: Categories that classify games based on their gameplay mechanics, themes, and overall experience.
+6. **GameHub**: The video game discovery web application aimed at addressing the challenges users face in finding new games to play and assisting developers in promoting their games effectively.
