@@ -9,11 +9,11 @@ interface Props {
 
 const GameCard = ({game}: Props) => {
   return (
-    <Card borderRadius={10} overflow={'hidden'}>
-        <Image src = {game.thumbnail} />
+    <Card>
+        <Image src = {game.thumbnail} height="200px"/>
         <CardBody>
              <HStack justifyContent={'space-between'}> 
-             <Heading fontSize={'2xl'}>{game.title}</Heading>  
+             <Heading fontSize={'1xl'}>{game.title}</Heading>  
                    <Text> 
                     <Icon as ={ FaWindows} color='gray.500' />  
                      {game.platform}
