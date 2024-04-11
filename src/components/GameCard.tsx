@@ -10,13 +10,13 @@ interface Props {
 const GameCard = ({game}: Props) => {
   return (
     <Card>
-        <Image src = {game.thumbnail} height="200px"/>
+        <Image src = {game.background_image} height="200px"/>
         <CardBody>
              <HStack justifyContent={'space-between'}> 
-             <Heading fontSize={'1xl'}>{game.title}</Heading>  
+             <Heading fontSize={'1xl'}>{game.name}</Heading>  
                    <Text> 
                     <Icon as ={ FaWindows} color='gray.500' />  
-                     {game.platform}
+                     {game.rating}
                    </Text>
              </HStack>
            

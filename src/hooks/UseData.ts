@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import apiClient from "../service/api-client";
 import { CanceledError } from "axios";
-import { Game } from "./UseGames";
 
 
 export interface FetchResponse <T> {
-    response : T[]; 
+    count: number;
+    results : T[]; 
 }
 
-const useData = <T>(endpoint:string) => {
+const useData = <T> (endpoint:string) => {
 
    
     
@@ -20,10 +20,9 @@ const useData = <T>(endpoint:string) => {
             const controller = new AbortController();
             setLoading(true)
 
-            apiClient.get<any>(endpoint,{ signal: controller.signal})
+            apiClient.get<FetchResponse<T>>(endpoint,{ signal: controller.signal})
                      .then(res=>{
-                        setData(res.data.response)
-                        console.log(res.data.response)
+                        setData(res.data.results)
                         setLoading(false)
                      }
                     )

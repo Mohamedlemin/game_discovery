@@ -1,10 +1,18 @@
 Problem Statement:
-Game enthusiasts often struggle with discovering new and interesting video games to play across various platforms due to the overwhelming abundance of choices and lack of tailored recommendations. This leads to frustration, wasted time, and missed opportunities to explore diverse gaming experiences. Additionally, developers face challenges in effectively showcasing their games to potential players, hindering their ability to reach their target audience and maximize game adoption.
+Job seekers often encounter difficulties in organizing and managing their job search activities, leading to missed opportunities and inefficiencies in the application process. Additionally, they struggle to keep track of applied jobs, interview schedules, and follow-up tasks, resulting in a lack of organization and coordination in their job search efforts.
 
 Entities:
-1. **Users**: Individuals interested in discovering and playing video games across different platforms.
-2. **Game Developers/Publishers**: Entities responsible for creating and distributing video games.
-3. **Games**: Various titles available for play on different gaming platforms, encompassing a wide range of genres and styles.
-4. **Platforms**: The systems or devices on which video games are played, such as consoles, PC, mobile devices, etc.
-5. **Genres**: Categories that classify games based on their gameplay mechanics, themes, and overall experience.
-6. **GameHub**: The video game discovery web application aimed at addressing the challenges users face in finding new games to play and assisting developers in promoting their games effectively.
+
+Job Seekers: Individuals actively searching for employment opportunities across various industries and sectors.
+Job Listings: Open positions posted by employers and recruitment agencies seeking qualified candidates to fill specific roles.
+Applications: Submissions made by job seekers in response to job listings, including resumes, cover letters, and additional materials.
+Interviews: Scheduled meetings or assessments conducted by employers to evaluate candidates' qualifications and suitability for job roles.
+Job Tracker Application: A web or mobile application designed to streamline the job search process for job seekers by providing tools and features to organize and manage job search activities effectively.
+Proposed Solution:
+
+
+
+
+
+
+
